@@ -23,7 +23,7 @@ class StoreProductRequest extends FormRequest
     {
         return [
             'category_name'=>['required','min:2','string'],
-            'category_id'=>['required','min:2']
+            'category_id'=>['required','min:1']
         ];
     }
 }
